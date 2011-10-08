@@ -1,0 +1,235 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+    <head>
+                <!-- HTTP 1.1 -->
+        <meta http-equiv="Cache-Control" content="no-store"/>
+        <!-- HTTP 1.0 -->
+        <meta http-equiv="Pragma" content="no-cache"/>
+        <!-- Prevents caching at the Proxy Server -->
+        <meta http-equiv="Expires" content="0"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta name="generator" content="AppFuse 2.0" /> <!-- leave this for stats please -->
+        <link rel="icon" href="/Quizz2-0.1-SNAPSHOT/images/favicon.ico"/>
+        <title>Connexion | AppFuse</title>
+
+        <link rel="stylesheet" type="text/css" media="all" href="/Quizz2-0.1-SNAPSHOT/styles/simplicity/theme.css" />
+        <link rel="stylesheet" type="text/css" media="print" href="/Quizz2-0.1-SNAPSHOT/styles/simplicity/print.css" />
+
+        <script type="text/javascript" src="/Quizz2-0.1-SNAPSHOT/scripts/prototype.js"></script>
+        <script type="text/javascript" src="/Quizz2-0.1-SNAPSHOT/scripts/scriptaculous.js"></script>
+        <script type="text/javascript" src="/Quizz2-0.1-SNAPSHOT/scripts/global.js"></script>
+        <meta name="heading" content="Connexion"/>
+    <meta name="menu" content="Login"/>
+    <link rel="stylesheet" type="text/css" media="all" href="/Quizz2-0.1-SNAPSHOT/styles/simplicity/layout-1col.css" />
+    </head>
+<body id="login">
+
+    <div id="page">
+        <div id="header" class="clearfix">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="switchLocale"><a href="/Quizz2-0.1-SNAPSHOT/?locale=en">AppFuse in English</a></div>
+
+
+<div id="branding">
+    <h1><a href="/Quizz2-0.1-SNAPSHOT/">AppFuse</a></h1>
+    <p>Providing integration and style to open source Java.</p>
+</div>
+<hr />
+
+
+
+        </div>
+
+        <div id="content" class="clearfix">
+            <div id="main">
+                
+
+
+
+
+
+                <h1>Connexion</h1>
+                <form method="post" id="loginForm" action="/Quizz2-0.1-SNAPSHOT/j_security_check"
+    onsubmit="saveUsername(this);return validateForm(this)">
+<fieldset style="padding-bottom: 0">
+<ul>
+
+    <li>
+       <label for="j_username" class="required desc">
+            Identifiant <span class="req">*</span>
+        </label>
+        <input type="text" class="text medium" name="j_username" id="j_username" tabindex="1" />
+    </li>
+
+    <li>
+        <label for="j_password" class="required desc">
+            Mot de passe <span class="req">*</span>
+        </label>
+        <input type="password" class="text medium" name="j_password" id="j_password" tabindex="2" />
+    </li>
+
+
+    <li>
+        <input type="checkbox" class="checkbox" name="_spring_security_remember_me" id="rememberMe" tabindex="3"/>
+        <label for="rememberMe" class="choice">Conserver ce mot de passe</label>
+    </li>
+
+    <li>
+        <input type="submit" class="button" name="login" value="Se connecter" tabindex="4" />
+        <p>
+            Pas encore membre ? <a href="/Quizz2-0.1-SNAPSHOT/signup">Demander</a> un compte.
+        </p>
+    </li>
+</ul>
+</fieldset>
+</form>
+
+<script type="text/javascript">
+    if (getCookie("username") != null) {
+        $("j_username").value = getCookie("username");
+        $("j_password").focus();
+    } else {
+        $("j_username").focus();
+    }
+    
+    function saveUsername(theForm) {
+        var expires = new Date();
+        expires.setTime(expires.getTime() + 24 * 30 * 60 * 60 * 1000); // sets it for approx 30 days.
+        setCookie("username",theForm.j_username.value,expires,"/Quizz2-0.1-SNAPSHOT/");
+    }
+    
+    function validateForm(form) {                                                               
+        return validateRequired(form); 
+    } 
+    
+    function passwordHint() {
+        if ($("j_username").value.length == 0) {
+            alert("Identifiant est un champ requis.");
+            $("j_username").focus();
+        } else {
+            location.href="/Quizz2-0.1-SNAPSHOT/passwordHint?username=" + $("j_username").value;
+        }
+    }
+    
+    function required () { 
+        this.aa = new Array("j_username", "Identifiant est un champ requis.", new Function ("varName", " return this[varName];"));
+        this.ab = new Array("j_password", "Mot de passe est un champ requis.", new Function ("varName", " return this[varName];"));
+    } 
+</script>
+
+
+<p>Passeport oubliï¿½ ? Obtenez votre <a href="?" onmouseover="window.status='Obtenez votre mot de passe provisoire chez vous.'; return true" onmouseout="window.status=''; return true" title="Obtenez votre mot de passe directement chez vous." onclick="passwordHint(); return false">mot de passe provisoire, envoyï¿½ par email</a>.</p>
+            </div>
+
+            
+            
+
+            <div id="nav">
+                <div class="wrapper">
+                    <h2 class="accessibility">Navigation</h2>
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="primary-nav" class="menuList">
+    <li class="pad">&nbsp;</li>
+    <li><a href="/Quizz2-0.1-SNAPSHOT/login" class="current">Connexion</a></li>
+    
+    
+    
+    
+</ul>
+
+
+                </div>
+                <hr/>
+            </div><!-- end nav -->
+        </div>
+
+        <div id="footer" class="clearfix">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="divider"><div></div></div>
+    <span class="left">Version 0.1-SNAPSHOT |
+        <span id="validators">
+            <a href="http://validator.w3.org/check?uri=referer">XHTML Valid</a> |
+            <a href="http://jigsaw.w3.org/css-validator/validator-uri.html">CSS Valid</a>
+        </span>
+        
+    </span>
+    <span class="right">
+        &copy; 2011 <a href="http://raibledesigns.com">Your Company Here</a>
+    </span>
+
+        </div>
+    </div>
+</body>
+</html>

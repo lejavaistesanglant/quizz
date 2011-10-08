@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="0.017" errors="0" skipped="0" tests="1" name="com.lejavaistesanglant.quizz.AppTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.1-b02-384"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="10M3425"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="FR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz"/>
+    <property name="java.runtime.version" value="1.6.0_26-b03-384-10M3425"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="i386"/>
+    <property name="surefire.real.class.path" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/surefire/surefirebooter7220786361031398711.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/4S/4Stg16GYHq8Nb3vwQEASm++++TM/-Tmp-/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/test-classes:/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/classes:/Users/ljs/.m2/repository/org/appfuse/appfuse-hibernate/2.0-m5/appfuse-hibernate-2.0-m5.jar:/Users/ljs/.m2/repository/org/appfuse/appfuse-data-common/2.0-m5/appfuse-data-common-2.0-m5.jar:/Users/ljs/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/ljs/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/Users/ljs/.m2/repository/org/hibernate/hibernate-annotations/3.2.1.ga/hibernate-annotations-3.2.1.ga.jar:/Users/ljs/.m2/repository/org/hibernate/hibernate/3.2.1.ga/hibernate-3.2.1.ga.jar:/Users/ljs/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar:/Users/ljs/.m2/repository/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar:/Users/ljs/.m2/repository/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar:/Users/ljs/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/ljs/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/ljs/.m2/repository/cglib/cglib/2.1_3/cglib-2.1_3.jar:/Users/ljs/.m2/repository/asm/asm/1.5.3/asm-1.5.3.jar:/Users/ljs/.m2/repository/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1.jar:/Users/ljs/.m2/repository/org/acegisecurity/acegi-security-tiger/1.0.3/acegi-security-tiger-1.0.3.jar:/Users/ljs/.m2/repository/org/acegisecurity/acegi-security/1.0.3/acegi-security-1.0.3.jar:/Users/ljs/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/ljs/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/ljs/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/ljs/.m2/repository/org/springframework/spring/2.0.5/spring-2.0.5.jar:/Users/ljs/.m2/repository/mysql/mysql-connector-java/5.0.5/mysql-connector-java-5.0.5.jar:/Users/ljs/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar:/Users/ljs/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/Users/ljs/.m2/repository/jmock/jmock/1.1.0/jmock-1.1.0.jar:/Users/ljs/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/ljs/.m2/repository/org/springframework/spring-mock/2.0.5/spring-mock-2.0.5.jar:/Users/ljs/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/Users/ljs/.m2/repository/org/subethamail/subethasmtp-wiser/1.0.3/subethasmtp-wiser-1.0.3.jar:/Users/ljs/.m2/repository/org/subethamail/subethasmtp-smtp/1.0.3/subethasmtp-smtp-1.0.3.jar:/Users/ljs/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/ljs/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.6.8"/>
+    <property name="user.home" value="/Users/ljs"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="ljs"/>
+    <property name="java.class.path" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/test-classes:/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/classes:/Users/ljs/.m2/repository/org/appfuse/appfuse-hibernate/2.0-m5/appfuse-hibernate-2.0-m5.jar:/Users/ljs/.m2/repository/org/appfuse/appfuse-data-common/2.0-m5/appfuse-data-common-2.0-m5.jar:/Users/ljs/.m2/repository/commons-lang/commons-lang/2.3/commons-lang-2.3.jar:/Users/ljs/.m2/repository/javax/persistence/persistence-api/1.0/persistence-api-1.0.jar:/Users/ljs/.m2/repository/org/hibernate/hibernate-annotations/3.2.1.ga/hibernate-annotations-3.2.1.ga.jar:/Users/ljs/.m2/repository/org/hibernate/hibernate/3.2.1.ga/hibernate-3.2.1.ga.jar:/Users/ljs/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar:/Users/ljs/.m2/repository/javax/transaction/jta/1.0.1B/jta-1.0.1B.jar:/Users/ljs/.m2/repository/asm/asm-attrs/1.5.3/asm-attrs-1.5.3.jar:/Users/ljs/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/ljs/.m2/repository/antlr/antlr/2.7.6/antlr-2.7.6.jar:/Users/ljs/.m2/repository/cglib/cglib/2.1_3/cglib-2.1_3.jar:/Users/ljs/.m2/repository/asm/asm/1.5.3/asm-1.5.3.jar:/Users/ljs/.m2/repository/commons-collections/commons-collections/2.1.1/commons-collections-2.1.1.jar:/Users/ljs/.m2/repository/org/acegisecurity/acegi-security-tiger/1.0.3/acegi-security-tiger-1.0.3.jar:/Users/ljs/.m2/repository/org/acegisecurity/acegi-security/1.0.3/acegi-security-1.0.3.jar:/Users/ljs/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar:/Users/ljs/.m2/repository/oro/oro/2.0.8/oro-2.0.8.jar:/Users/ljs/.m2/repository/log4j/log4j/1.2.13/log4j-1.2.13.jar:/Users/ljs/.m2/repository/org/springframework/spring/2.0.5/spring-2.0.5.jar:/Users/ljs/.m2/repository/mysql/mysql-connector-java/5.0.5/mysql-connector-java-5.0.5.jar:/Users/ljs/.m2/repository/javax/servlet/jsp-api/2.0/jsp-api-2.0.jar:/Users/ljs/.m2/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar:/Users/ljs/.m2/repository/jmock/jmock/1.1.0/jmock-1.1.0.jar:/Users/ljs/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar:/Users/ljs/.m2/repository/org/springframework/spring-mock/2.0.5/spring-mock-2.0.5.jar:/Users/ljs/.m2/repository/commons-logging/commons-logging/1.1/commons-logging-1.1.jar:/Users/ljs/.m2/repository/org/subethamail/subethasmtp-wiser/1.0.3/subethasmtp-wiser-1.0.3.jar:/Users/ljs/.m2/repository/org/subethamail/subethasmtp-smtp/1.0.3/subethasmtp-smtp-1.0.3.jar:/Users/ljs/.m2/repository/javax/mail/mail/1.4/mail-1.4.jar:/Users/ljs/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/surefire/surefirebooter7220786361031398711.jar /Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/surefire/surefire4442147024088261503tmp /Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/surefire/surefire8540118392610170912tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="fr"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_26"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/ljs/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1060.1.6.0_26-384"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.002" classname="com.lejavaistesanglant.quizz.AppTest" name="testGetHello"/>
+</testsuite>

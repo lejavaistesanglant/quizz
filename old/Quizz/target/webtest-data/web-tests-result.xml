@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<summary Implementation-Title="Canoo Webtest" Implementation-Version="R_1454">
+    <testresult endtime="Tue Sep 06 16:07:07 CEST 2011"
+        location="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/src/test/resources/web-tests.xml:23: "
+        starttime="Tue Sep 06 16:07:07 CEST 2011" successful="no" testspecname="login">
+        <config>
+            <parameter name="port" value="8081"/>
+            <parameter name="summary" value="yes"/>
+            <parameter name="protocol" value="http"/>
+            <parameter name="host" value="localhost"/>
+            <parameter name="resultpath" value="/Users/ljs/git/lejavaistesanglant/quizz/Quizz/target/webtest-data"/>
+            <parameter name="saveprefix" value="response"/>
+            <parameter name="basepath" value="Quizz-0.1-SNAPSHOT"/>
+            <parameter name="resultfile" value="web-tests-result.xml"/>
+            <parameter name="haltonerror" value="yes"/>
+            <parameter name="saveresponse" value="yes"/>
+            <parameter name="haltonfailure" value="yes"/>
+            <parameter name="timeout" value="300"/>
+            <parameter name="showhtmlparseroutput" value="no"/>
+        </config>
+        <results>
+            <step>
+                <parameter name="description" value="get Login Page"/>
+                <parameter name="resultFilename" value="response_1315318027860_invoke.html"/>
+                <parameter name="taskName" value="invoke"/>
+                <parameter name="url" value="/"/>
+                <result>
+                    <failed duration="601"/>
+                </result>
+            </step>
+            <step>
+                <parameter name="description" value="we should see the login title"/>
+                <parameter name="regex" value="true"/>
+                <parameter name="taskName" value="verifytitle"/>
+                <parameter name="text" value=".*${login.title}.*"/>
+                <result>
+                    <notexecuted duration="0"/>
+                </result>
+            </step>
+            <step>
+                <parameter name="description" value="set user name"/>
+                <parameter name="name" value="j_username"/>
+                <parameter name="taskName" value="setinputfield"/>
+                <parameter name="value" value="admin"/>
+                <result>
+                    <notexecuted duration="0"/>
+                </result>
+            </step>
+            <step>
+                <parameter name="description" value="set password"/>
+                <parameter name="name" value="j_password"/>
+                <parameter name="taskName" value="setinputfield"/>
+                <parameter name="value" value="admin"/>
+                <result>
+                    <notexecuted duration="0"/>
+                </result>
+            </step>
+            <step>
+                <parameter name="description" value="Click the submit button"/>
+                <parameter name="label" value="${button.login}"/>
+                <parameter name="taskName" value="clickbutton"/>
+                <result>
+                    <notexecuted duration="0"/>
+                </result>
+            </step>
+            <step>
+                <parameter name="description" value="Home Page follows if login ok"/>
+                <parameter name="regex" value="true"/>
+                <parameter name="taskName" value="verifytitle"/>
+                <parameter name="text" value=".*${mainMenu.title}.*"/>
+                <result>
+                    <notexecuted duration="0"/>
+                </result>
+            </step>
+            <failure message="com.canoo.webtest.engine.StepFailedException: Step[invoke &quot;get Login Page&quot; (1/6)]: HTTP error 404, at: invoke, Step: InvokePage at /Users/ljs/git/lejavaistesanglant/quizz/Quizz/src/test/resources/login.xml:1:  with (resultFilename=&quot;response_1315318027860_invoke.html&quot;, taskName=&quot;invoke&quot;)"/>
+        </results>
+    </testresult>
+</summary>
